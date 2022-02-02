@@ -10,7 +10,13 @@
           <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
-        <img class="img-responsive" src="assets/img/prof_pic.jpg" />
+        {%- if entry.abbr -%}
+            {%- assign entry_image_path = entry.image | prepend: 'assets/img/' -%}
+            {% include figure.html 
+              path=profile_image_path 
+              class="img-fluid z-dept-1 rounded"
+            -%}
+        {%- endif -%}   
         </div>
 
         <!-- Entry bib key -->
