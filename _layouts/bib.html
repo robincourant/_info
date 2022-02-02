@@ -10,7 +10,7 @@
           <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
-        {%- if entry.abbr -%}
+        {%- if entry.img -%}
             {%- assign entry_image_path = entry.img | prepend: 'assets/img/' -%}
             {% include figure.html 
               path=profile_image_path 
