@@ -2,23 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Research Engineer, Computer Vision
 
 profile:
   align: right
   image: profil_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a research engineer in the <a href='https://team.inria.fr/mimetic/'>Mimetic</a> team (<a href='https://www.inria.fr/en/centre-inria-rennes-bretagne-atlantique'>INRIA</a>, <a href="https://www.univ-rennes1.fr">University Rennes 1<a>), supervised by <a href="http://people.irisa.fr/Marc.Christie/">Marc Christie</a>. 
+<br />
+I just achieved my end-of-study internship in the <a href="https://www.lix.polytechnique.fr/geovic/">GeoViC</a> team (<a href="https://www.lix.polytechnique.fr">LIX<a>, <a href="https://www.polytechnique.edu/en">École Polytechnique<a>), supervised by <a href="https://vicky.kalogeiton.info">Vicky Kalogeiton</a>, <a href="http://people.irisa.fr/Marc.Christie/">Marc Christie</a> and <a href="https://sites.google.com/site/christophelino/">Christophe Lino</a>. 
+<br />
+I completed my master of science in mathematical and computational engineering in 2021 at the <a href="https://www.imt-atlantique.fr/fr">IMT Atlantique<a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interest focuses on computer vision, deep learning and cinematography. Specifically I work on extracting style features from cinematic content. 
