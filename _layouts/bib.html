@@ -11,7 +11,12 @@
           {%- endif -%}
         {%- endif -%}
         {%- if entry.img -%}
-            <img src="assets/img/+'entry.img'" width="500" height="600" class="img-responsive img-rounded">
+            {%- if page.profile.image %}
+              {%- assign entry_image_path = entry.img | prepend: 'assets/img/' -%}
+              {% include figure.html 
+              path=entry_image_path 
+              class="img-fluid z-dept-1 rounded"
+              alt=page.entry.image -%}
         {%- endif -%}   
         </div>
 
