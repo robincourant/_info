@@ -10,6 +10,7 @@
           <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
+        <img class="img-responsive" src="assets/img/prof_pic.jpg" />
         </div>
 
         <!-- Entry bib key -->
@@ -118,7 +119,7 @@
           {%- endif %}
           {%- if entry.video %}
             {% if entry.video contains '://' -%}
-            <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
+            <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
             {%- else -%}
             <a href="{{ entry.video | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Video</a>
             {%- endif %}
@@ -127,7 +128,7 @@
             {% if entry.hal contains '://' -%}
             <a href="{{ entry.hal }}" class="btn btn-sm z-depth-0" role="button">Hal</a>
             {%- else -%}
-            <a href="{{ entry.video | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Hal</a>
+            <a href="{{ entry.hal | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Hal</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.blog %}
