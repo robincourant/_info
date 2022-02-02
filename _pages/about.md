@@ -18,4 +18,4 @@ I just achieved my end-of-study internship in the <a href="https://www.lix.polyt
 <br />
 I completed my master of science in mathematical and computational engineering in 2021 at the <a href="https://www.imt-atlantique.fr/fr">IMT Atlantique<a>.
 
-My research interest focuses on computer vision, deep learning and cinematography. Specifically I work on extracting style features from cinematic content. 
+My research interest focuses on computer vision, deep learning and cinematography. Specifically, I work on extracting style features from cinematic content. 
