@@ -1,9 +1,8 @@
 ---
 layout: page
-permalink: /vitae/
+permalink: assets/pdf/example_pdf.pdf
 title: vitae
-description: TO DO ...
+description: 
 nav: true
 ---
 
-TO DO ...
