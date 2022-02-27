@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Robin  Courant | blog</title>
+    <title>Robin  Courant | publications</title>
     <meta name="author" content="Robin  Courant" />
     <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 " />
@@ -32,7 +32,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
     <link rel="stylesheet" href="/info/assets/css/main.css">
-    <link rel="canonical" href="https://robincourant.github.io/info/blog/">
+    <link rel="canonical" href="https://robincourant.github.io/info/publications/">
 
     <!-- Dark Mode -->
     <script src="/info/assets/js/theme.js"></script>
@@ -67,8 +67,8 @@
               
 
               <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/info/publications/">publications</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/info/publications/">publications<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/info/assets/pdf/resume_robin.pdf">vitae</a>
@@ -89,21 +89,69 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">publications</h1>
+            <p class="post-description"></p>
+          </header>
 
+          <article>
+            <!-- _pages/publications.md -->
+<div class="publications">
+  <h2 class="year">2021</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr">
+<figure>
 
-  <ul class="post-list">
-    
-  </ul>
+  <picture>
+    <source media="(max-width: 480px)" srcset="/info/assets/img/thumbnail_courant2021high-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/info/assets/img/thumbnail_courant2021high-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/info/assets/img/thumbnail_courant2021high-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid z-dept-1 rounded centerImage" src="/info/assets/img/thumbnail_courant2021high.jpg">
 
-  
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="courant2021high" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">High-Level Features for Movie Style Understanding</div>
+          <!-- Author -->
+          <div class="author">Courant, Robin, Lino, Christophe, Christie, Marc, and Kalogeiton, Vicky
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In ICCV 2021 Workshop on AI for Creative Video Editing and Understanding</em> 2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="https://cveu.github.io/src/movie_style.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+            <a href="https://cveu.github.io/src/movie_style_supp.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Supp</a>
+            <a href="https://www.youtube.com/watch?v=7CXdtfdQxZs" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Video</a>
+            <a href="https://hal.archives-ouvertes.fr/hal-03381587/document" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Hal</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+
 
 </div>
+
+          </article>
+
+        </div>
 
     </div>
 
