@@ -1,4 +1,7 @@
+---
+permalink: /robots.txt
+---
 User-agent: *
 Disallow:
 
-Sitemap: https://robincourant.github.io/info//sitemap.xml
+Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
